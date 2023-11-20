@@ -1,0 +1,12 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Dark Material Dracula Soft",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+      },
+}

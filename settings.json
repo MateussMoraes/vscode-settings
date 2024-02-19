@@ -1,12 +1,21 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
+    "symbols.hidesExplorerArrows": false,
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.colorTheme": "Min Dark",
+    "workbench.iconTheme": "symbols",
     "editor.fontSize": 14,
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.tabSize": 2,
-    "workbench.colorTheme": "Dark Material Dracula Soft",
+    "editor.lineHeight": 1.8,
+    "javascript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
-      },
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.tabSize": 2,
+    "workbench.statusBar.visible": false
 }

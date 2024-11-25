@@ -1,13 +1,22 @@
 {
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
   "extends": [
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
-    "plugin:@typescript-eslint/recommended",
+    "next/core-web-vitals",
+    "next/typescript",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["prettier"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
   "rules": {
-    "semi": ["error", "never"],
     "prettier/prettier": [
       "error",
       {

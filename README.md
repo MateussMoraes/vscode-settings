@@ -17,3 +17,16 @@ Arquivo prettier.config.json
   "plugins": ["prettier-plugin-tailwindcss"]
 }
 ```
+
+Atualização
+
+Pacotes novos
+```javascript
+npm install globals @eslint/js @eslint/eslintrc -D
+```
+
+Migrar para nova versão
+
+```javascript
+npx @eslint/migrate-config .eslintrc.json
+```
